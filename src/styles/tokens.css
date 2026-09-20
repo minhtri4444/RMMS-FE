@@ -1,0 +1,44 @@
+:root {
+  --color-bg: #F8FAFC;           /* application background */
+  --color-surface: #FFFFFF;      /* cards / panels */
+  --color-sidebar: #0B1220;      /* navigation dark navy */
+  --color-sidebar-hover: #162238;
+  --color-sidebar-active: #1E293B;
+  --color-text: #0F172A;         /* primary text */
+  --color-text-muted: #64748B;   /* secondary text */
+  --color-border: #E2E8F0;       /* borders */
+  --color-primary: #2563EB;      /* primary actions */
+  --color-primary-soft: #DBEAFE; /* selected/soft blue */
+  --color-primary-hover: #1D4ED8;
+  --color-accent: #0EA5A4;       /* live/realtime accent */
+  --color-accent-soft: #CCFBF1;
+  --color-success: #16A34A;
+  --color-success-soft: #DCFCE7;
+  --color-warning: #D97706;
+  --color-warning-soft: #FEF3C7;
+  --color-danger: #DC2626;
+  --color-danger-soft: #FEE2E2;
+  --color-info: #0284C7;
+  --color-info-soft: #E0F2FE;
+}
+
+/* Tabular figures for numbers, timers, IDs, telemetry */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for operations tables and drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
